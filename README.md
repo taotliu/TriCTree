@@ -1,8 +1,8 @@
 # TriCTree
 
-## Authors: Yan Sun, Yanke Zhu and Tao Liu (tliu@stat.brown.edu)
-
 An R package for implementing the "Trichotomous Classification Tree (TriCTree)" algorithm. 
+
+ Authors: Yan Sun, Yanke Zhu and Tao Liu (tliu@stat.brown.edu)
 
 Reference: Zhu Y and Fang J (2016). Logistic regression-based trichotomous classification tree and its application in medical diagnosis. *Med Decis Making*, 36(8):973-89. doi: 10.1177/0272989X15618658. 
 

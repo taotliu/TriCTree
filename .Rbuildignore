@@ -1,2 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^example\.R$
+^proj\_todo\.org$
+^fig$
+^README\.md$
+^\.gitignore$
