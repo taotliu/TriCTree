@@ -4,15 +4,10 @@ Title: Implementation of Regression-Based Trichotomous Classification Tree Analy
 Version: 0.1.0
 Author: "Yan Sun <yansun414@gmail.com> [aut, cre]" "Yanke Zhu <email>" "Tao Liu <tliu@stat.brown.edu> [aut, cre]" 
 Maintainer: Tao Liu <tliu@stat.brown.edu>
-Description: This package includes a trichotomous classification algorithm to classify a training dataset into two groups. The algorithm produces a 
-  tree of which each knot has three splits; a "positive" split, a "negative" split, and a "middle" split. The middle split will be further subdivided 
-  into three splits until a stopping criterion is met. The package generates an object of class "trictree" which can be used to generate summary results 
-  using generic functions. The package also includes a prediction function which can be used to apply the estimated trichotomous classification tree 
-  to a new testing dataset. 
+Description: This package includes a trichotomous classification algorithm to classify a training dataset into two groups. The algorithm produces a tree of which each knot has three splits; a "positive" split, a "negative" split, and a "middle" split. The middle split will be further subdivided into three splits until a stopping criterion is met. The package generates an object of class "trictree" which can be used to generate summary results using generic functions. The package also includes a prediction function which can be used to apply the estimated trichotomous classification tree to a new testing dataset. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.0.9000
-Suggests: knitr,
-    rmarkdown
+Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
