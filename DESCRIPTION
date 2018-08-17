@@ -2,7 +2,7 @@ Package: TriCTree
 Type: Package
 Title: Implementation of Regression-Based Trichotomous Classification Tree Analysis
 Version: 0.1.0
-Author: "Yan Sun <pls add your email> [aut, cre]" "Yanke Zhu <email>" "Tao Liu <tliu@stat.brown.edu> [aut, cre]" 
+Author: "Yan Sun <yansun414@gmail.com> [aut, cre]" "Yanke Zhu <email>" "Tao Liu <tliu@stat.brown.edu> [aut, cre]" 
 Maintainer: Tao Liu <tliu@stat.brown.edu>
 Description: This package includes a trichotomous classification algorithm 
   to classify a training dataset into two groups. The algorithm produces a 
@@ -17,3 +17,6 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.0.9000
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
